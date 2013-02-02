@@ -1,0 +1,65 @@
+body {
+	overflow: hidden;
+	background-image: url(texture.png);
+  	background-repeat:repeat;
+  	font-family: 'Raleway', sans-serif;
+  	text-transform: uppercase;
+}
+
+.offset-padding {
+	padding-left: 32%;
+	padding-top: 24%;
+}
+
+.massive-text {	
+	text-transform: uppercase;
+	line-height: 0.73;
+	font-weight: 700;
+
+	color: #111;
+	text-shadow: 5px 20px 8px #948C75;
+	text-decoration: none;
+	display: block;	
+
+	transition: color 0.5s ease-in-out;
+	-moz-transition:color 0.5s ease-in-out;
+	-webkit-transition:color 0.5s ease-in-out;
+	-o-transition:color 0.5s ease-in-out;
+
+	/* No Highlighting */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.massive-text:hover {
+	color: #1E2860;	
+}
+
+.fixed-footer {
+	position: fixed;
+	top: 94%;
+	left: 2%;
+}
+
+.subtle-link {
+	color: #999;	
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: rgba(0,0,0,0);
+	font-size: 8px;
+
+	transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+}
+
+.subtle-link:hover {
+	border-bottom-color: #555;
+	color: #555;
+}
